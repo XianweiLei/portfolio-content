@@ -2,21 +2,26 @@
 <html  lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
 <script src="https://kit.fontawesome.com/a4bc199149.js" crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VTNBEL3BNH"></script>
+  <title>Xianwei Personal Portfoilio Main Page</Main></title>
+  <link href='css/style.css' rel='stylesheet'>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRGM498YT3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-VTNBEL3BNH');
+  gtag('config', 'G-RRGM498YT3');
 </script>
-  <title>Xianwei Personal Portfoilio Main Page</Main></title>
-  <link href='css/style.css' rel='stylesheet'>
-</head>
-
 <body class="mainpage">
   <header>
    <nav class="navigation">
@@ -27,21 +32,24 @@
       <li><a class="pagelink" href="Projects.html">Projects and Gallerys</a></li>
      </ul>
      </nav>
-     </header>
+    </header>
  <main>
    <div class='content'>
+    <div class="skip"><a href="#section2">Skip to Main Content</a></div>
     <h5>Welcome to Xianwei's portfolio!</h5>
     <h1>About Xianwei Lei</h1>
     <h2>UI/UX Designer & Urban Planner</h2>
     <p>This is Xianwei, a designer, and a planner with a passion for building user-centered experiences, connecting with new faces, and constantly learning and further growing as a designer and listener. Coming from a diverse background allows me to take a different perspective on problem-solving. I am deeply interested in human behavior, and putting people at the center of the design is key to my design process. 
     </p>
     <img src="images/Profile1.jpg" class='image1' alt='Xianweis pic' />
-    <h2>My UX Design Works:</h2>
+    <h2 id="section2">My UX Design Works:</h2>
     <h2>1. Navigation app for pedestrains</h2>
 
     <p>My team and I are interested in exploring how people interact with their environment and the intersection of safety with personal commutes in addition to how community can be fostered and integrated within the context of the personal commute.
       So how might we enable individuals who commute using non-personal motor vehicles, particularly in last-mile situations, to better make informed decisions, thus enabling them to feel safe and confident through every point of their commute? </p>
+      <img src="images/work1.png" class='image1' alt='projectamble'/>
       <h2>Stay tuned..</h2>
+
    </div>
   </main>
 
@@ -51,11 +59,32 @@
       <li> <i class="fa-solid fa-envelope"></i> E-mail: xianwei@umich.edu</li>
       <li> <i class="fa-solid fa-phone"></i> Mobile: 614-648-5366</li>
      </ul>
+     <br>
+     <br>
+     <!-- modify this form HTML and place wherever you want your form -->
+<form
+action="https://formspree.io/f/xqkjvrqd"
+method="POST"
+>
+<label>
+  Your email:
+  <input type="email" name="email">
+</label>
+<br>
+<br>
+<br>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
   </aside>
 
  <footer>
  Xianwei Lei Portofolio, Fall 2022
- </footer> 
+ </footer>
 </body>
 
 </html>
